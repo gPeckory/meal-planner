@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  margin-top: 15px;
+}
+
+.input-form {
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.recipe-wrapper {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.recipe-list-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.recipe-wrapper h4,
+li,
+img {
+  margin: 5px;
+  max-width: fit-content;
+  min-width: 300px;
+  list-style: none;
+}
